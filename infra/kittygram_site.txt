@@ -1,0 +1,5 @@
+IP: 158.160.70.166;
+name_taski: https://thebesttasklist.ddns.net/;
+name_kittygram: https://kittygram.mokhnatkin.org/;
+login: admin;
+password: admin; 
