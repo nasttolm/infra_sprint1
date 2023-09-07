@@ -36,9 +36,16 @@ python3 manage.py runserver
 
 ### Technologies
 Python 3.9.10
+
 JavaScript
+
 Ubuntu
+
 Django 3.2.16
+
 djangorestframework 3.12.4
+
 Gunicorn
+
 Nginx
+
