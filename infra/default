@@ -1,5 +1,6 @@
 server {
     server_name 158.160.70.166 thebesttasklist.ddns.net;
+    server_tokens off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
