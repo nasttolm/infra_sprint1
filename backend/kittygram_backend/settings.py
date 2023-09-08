@@ -8,9 +8,9 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DEBUG = False
+DEBUG = os.environ['DEBUG']
 
-ALLOWED_HOSTS = ['158.160.70.166', '127.0.0.1', 'localhost', 'thebestkittygram.ddns.net']
+ALLOWED_HOSTS = os.environ['ALLOWED_HOSTS']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
