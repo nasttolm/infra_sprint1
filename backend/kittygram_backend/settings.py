@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = os.environ.get('DEBUG')
 
-ALLOWED_HOSTS = os.environ.get('SERVERNAMES').split(' ')
+ALLOWED_HOSTS = os.environ['ALLOWED_HOSTS']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
